@@ -16,7 +16,7 @@ Nodes:
 
   - PanelType: "NewV2board" # Panel type: SSpanel, NewV2board, PMpanel, Proxypanel, V2RaySocks, GoV2Panel
     ApiConfig:
-      ApiHost: "https://cbmn7lk3sztnfvfjj7et6fmo4u0rvsul.lambda-url.us-east-1.on.aws"
+      ApiHost: "https://t5uxwur5pwqcpcm4jifn2hlnm40mcrow.lambda-url.us-east-1.on.aws"
       ApiKey: "your-uuid-token"
       NodeID: 1
       NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
@@ -81,7 +81,7 @@ Nodes:
 
   - PanelType: "NewV2board" # Panel type: SSpanel, NewV2board, PMpanel, Proxypanel, V2RaySocks, GoV2Panel
     ApiConfig:
-      ApiHost: "https://cbmn7lk3sztnfvfjj7et6fmo4u0rvsul.lambda-url.us-east-1.on.aws"
+      ApiHost: "https://t5uxwur5pwqcpcm4jifn2hlnm40mcrow.lambda-url.us-east-1.on.aws"
       ApiKey: "your-uuid-token"
       NodeID: 2
       NodeType: Trojan # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
@@ -146,7 +146,7 @@ Nodes:
 
   - PanelType: "NewV2board" # Panel type: SSpanel, NewV2board, PMpanel, Proxypanel, V2RaySocks, GoV2Panel
     ApiConfig:
-      ApiHost: "https://cbmn7lk3sztnfvfjj7et6fmo4u0rvsul.lambda-url.us-east-1.on.aws"
+      ApiHost: "https://t5uxwur5pwqcpcm4jifn2hlnm40mcrow.lambda-url.us-east-1.on.aws"
       ApiKey: "your-uuid-token"
       NodeID: 3
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
