@@ -38,8 +38,8 @@ sudo systemctl enable docker
 2. 安装Docker-compose
 
 ```
-sudo curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/dc
+sudo chmod +x /usr/local/bin/dc
 ```
 3. Docker-compose 安装XrayR
 
@@ -55,8 +55,8 @@ sudo chmod +x /usr/local/bin/docker-compose
    sed -i "s/your-uuid-token/你的uuid/" ./config.yml
    ```
 5. `mv config.yml config/config.yml`
-6. `sudo docker-compose up -d`
-7. `sudo docker-compose ps` 应该能看到 Up 状态, 如果不能， `sudo docker-compose logs` 查看日志发送到[电报群](https://t.me/EndGFWUnion)
+6. `sudo dc up -d`
+7. `sudo dc ps` 应该能看到 Up 状态, 如果不能， `sudo dc logs` 查看日志发送到[电报群](https://t.me/EndGFWUnion)
 
 8.  你的订阅链接如下， 替换为你的UUID
    `https://t5uxwur5pwqcpcm4jifn2hlnm40mcrow.lambda-url.us-east-1.on.aws/api/v1/client/subscribe?token=your-uuid-token`
